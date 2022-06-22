@@ -1,6 +1,10 @@
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/sync.yml'
 #  schedule:
 #    - cron: '*/60 * * * *'
 
